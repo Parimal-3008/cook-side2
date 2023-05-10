@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Heading
+{
+  color:#FFC857;
+  width: 100%;
+  height: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #2C263B;
+  font-size: 3rem;
+  font-weight: bolder;
 }
-
-.App-link {
-  color: #61dafb;
+.extraspace
+{
+  height: 10px;
+  width: 100%;
+  /* border:1px solid red */
+  background-color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Table, .Table2
+{
+  display: flex;
+ 
+}
+.Table2
+{
+  margin-bottom: 30px;
+}
+.parent
+{
+  background-color: #2C263B;
+}
+.Orderid1, .Order1
+{
+    width:20%;
+    height: 30px;
+    margin-left: 10px;
+   margin-right: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #2C263B;
+   color:#f6c769;
+   font-weight: bolder;
+   font-size:xx-large;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+.childTable
+{
+  background-color: #2C263B;
+  height: 40em;
+  overflow: auto;
+}
+.Order1{
+   width:60%;
+  
+}
+.removebutton
+{
+   height: 2.5em;
+   width:auto;
+   color:#2C263B;
+   font-weight: bolder;
+   background-color: #FFC857;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
